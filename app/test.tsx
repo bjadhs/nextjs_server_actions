@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { getTodo } from './actions';
+import { getTodo } from '../lib/actions';
 
 interface Todo {
   userId: number;

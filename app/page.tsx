@@ -1,11 +1,12 @@
-import Test from './test';
+import Ticket from './ticket/page';
 
-const page = () => {
+const TicketPage = () => {
   return (
     <div>
-      <Test />
+      <h1>Home Page</h1>
+      <Ticket />
     </div>
   );
 };
 
-export default page;
+export default TicketPage;
